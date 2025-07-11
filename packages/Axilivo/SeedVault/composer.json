@@ -1,0 +1,18 @@
+{
+  "name": "axilivo/seedvault",
+  "description": "Database snapshot tool for local backup",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Axilivo\\SeedVault\\": "src/"
+    }
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Axilivo\\SeedVault\\SeedVaultServiceProvider"
+      ]
+    }
+  }
+}
